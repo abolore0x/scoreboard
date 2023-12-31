@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("basketball-court.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(127, 99, 71, 0.5);
+    width: 575px;
+    height: 350px;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+
+h2:hover {
+    border-bottom: 3px solid lightblue
+}
+
+h1 {
+    background: #080001;
+    width: 120px;
+    height: 90px;
+    color: #F94F6D;
+    font-size: 90px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px auto 30px;
+    
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    padding: 10px 8px;
+    margin-top: 0;
+    margin-right: 2px;
+    font-weight: 60px;
+}
